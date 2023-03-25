@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		counter
+	</title>
+	<link rel="stylesheet" href="balls.css">
+</head>
+<body>
+	<div id="outerdiv">
+	    <div id="innerdiv" onclick="counter()">
+	        </div>
+	          <p id="para">
+	   	         <h4  id = "text">
+	   		      click on above box
+	   	         </h4>
+	           </p>
+	        </div>
+	     </div>
+	</div>
+	 <script>
+		var count = 0
+		function counter(){
+			count = count + 1
+			document.getElementById("text").innerHTML = "you clicked" + " " + count + " " + "times";
+		}
+        
+
+	 </script>
+</body>
+</html>

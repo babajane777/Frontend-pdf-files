@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Counter
+	</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="main">
+		<div id="upperdiv">
+			<p>
+				<h3> <i>Enter the value between 1 to 9</i></h3>
+			</p>
+			<div id="inputAndStartButtonDiv">
+
+				<input id="inputBar" onfocus= "this.value ='' "  type="number">
+				<button id = "start" onclick="toDo()"> start Counter </button>
+				<button id = "reset" onclick="resetbutton()"> reset</button>
+
+			</div>
+		</div>
+		<div id="lowerdiv">
+			<div id="container">
+				<div id="displaydiv">
+
+					<p class="display" > 0 </p>
+			
+				</div>
+				<div id="displaydiv">
+
+					<p class="display" > 0 </p>
+				
+				</div>
+				<div id="displaydiv">
+
+					<p class="display" > 0 </p>
+			
+				</div>
+			</div>
+		</div>
+    <script src="script.js">
+    </script>
+</body>
+</html>

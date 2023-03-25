@@ -1,0 +1,47 @@
+#container{
+	height:80vh;
+	width:50vw;
+	background-color: #347d0a;
+	position:absolute;
+	left:20%;
+	top:10%;
+	border:1px solid black;
+	/*padding:10px;*/
+}
+
+#movingball{
+	height:40px;
+	width:40px;
+	background-color: yellow;
+	border-radius:47%; 
+	position:absolute;
+	left:0vw;
+	top:0vh;
+	border:1px solid black;
+	/*padding:10px;*/
+}
+
+#buttonsBox{
+	height:auto;
+	width:9%;
+	background-color: #c1e8f5;
+	position:absolute;
+	left:73%;
+	top:35%;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding:10px;
+
+
+}
+
+#buttonsBox button{
+	width:55px;
+	height:56px;
+	color: black;
+	font-weight: bold;
+	font-size:20px;
+	color:white;
+
+}

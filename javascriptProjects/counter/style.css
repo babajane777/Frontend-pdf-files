@@ -1,0 +1,110 @@
+#main{
+	height:600px;
+	width:100%;
+	background-color:#fafaf2;
+	align-items: center;
+	display:flex;
+	flex-direction: column;
+}
+
+#upperdiv{
+	height:30%;
+	width:90%;
+	background-image:linear-gradient(to right,#f0afef,#99edf0);
+	position:relative;
+	top:10%;
+	text-align: center;
+}
+
+#upperdiv p {
+	color:white;
+	padding:3px;
+}
+
+
+#inputAndStartButtonDiv{
+	height:auto;
+	width:60%;
+	margin:auto;
+	text-align: center;
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+
+}
+
+#inputAndStartButtonDiv input{
+  width:200px;
+  height:20px;
+  padding:10px 10px;
+  border: none;
+  font-size: 30px;
+  text-align: center;
+}
+
+#reset{
+   background-color: #410942; 
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius:0.5em;
+}
+
+#start{
+
+  background-color: #410942; 
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius:0.5em;
+
+}
+
+#lowerdiv{
+	height:25%;
+	width:60%;
+	background-color:#484a4a;
+	position:relative;
+	top:20%;
+	
+	/*justify-content: space-around;*/
+	align-items:center;
+}
+
+#container{
+	width:200px;
+	height:auto;
+	margin:auto;
+	display:flex;
+	flex-direction: row;
+	/*background-color: grey;*/
+	text-align: center;
+	position:relative;
+	top:30%;
+	justify-content: space-between;
+}
+
+#displaydiv{
+	width:50px;
+	height:50px;
+	text-align: center;
+	background-color: white;
+	border:1px solid black;
+}
+
+.display {
+	font-weight:bold;
+	font-size: 30px;
+	position:relative;
+	top:15%;
+	margin:auto;
+	
+}

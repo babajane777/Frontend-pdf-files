@@ -1,0 +1,241 @@
+
+#body-header{
+	    height:65vh;
+	    background-image:
+	    url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+	    background-position: center;
+	    background-size: cover;
+	    background-attachment: fixed;
+	    opacity:0.8;
+	}
+
+#horizontal-list{
+	list-style: none;
+	padding-left: 0px;
+	text-align: center;
+
+}
+ 
+#horizontal-list li{
+	display: inline-block;
+	margin: 20px 20px
+}
+
+#horizontal-list li a{
+	color: white;
+	font-size: 1.5vw
+}
+
+#horizontal-list li a:hover{
+	color: white;
+	border-bottom: 2px solid white;
+
+}
+
+#name{
+	color:white;
+	text-align: center;
+	font-size:3vw;
+	margin-top: 80px
+}
+
+#about{
+	width:100%;
+	height:auto;
+	position:relative;
+	/*background-color: yellow;*/
+
+
+}
+
+#my-image{
+	width:12rem;
+	height:12rem;
+	margin:auto;
+	margin-top:-17vh;
+
+	
+}
+
+#my-image img{
+	height:100%;
+	width:100%;
+	border-radius: 50%;
+	border-style: solid;
+	border-width:3px;
+	border-color: white;
+	box-shadow: 0px 0px 80px  grey;
+}
+
+#paragraph{
+	line-height: 25px;
+	width:70vw;
+	height: 10vh;
+	margin:auto;
+}
+
+#paragraph p span a {
+	text-decoration-line:none;
+
+}
+
+
+section{
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	margin-top:20px;
+	background-color:white;
+}
+
+.section-heading{
+width:auto;
+padding:20px 10px 10px;
+margin:10px auto;
+font-weight: 400;
+/*background-color: grey;*/
+}
+
+.section-heading span{
+	font-size:40px;
+	margin-right:0.5rem;
+	color: blue;
+	display: inline-block;
+	padding-top:5px;
+	/*background-color: grey;*/
+
+}
+
+
+#skills-display{
+	width:70%;
+	height:auto;
+	display: flex;
+	/*flex-direction: column;*/
+	flex-wrap: wrap;
+	justify-content:space-around;
+	background-color:#f5f3f0;
+	padding:20px;
+
+
+}
+
+.skill-progress{
+	width:8rem;
+	height:2rem;
+	background-color:grey;
+	border-radius:0.8rem;
+	align-items: center;
+	margin-left:50px;
+	margin-top:50px;
+	margin-bottom:50px;
+
+
+}
+
+#_85per{
+	width:80%;
+	height:inherit;
+	background-color:cyan;
+	align-items: center;
+
+
+}
+
+#_83per{
+	width:83%;
+	height:inherit;
+	background-color:yellow;
+}
+#_60per{
+	width:60%;
+	height:inherit;
+	background-color:green;
+}
+
+#_60per span{
+	color:white;
+}
+
+#_65per{
+	width:65%;
+	height:inherit;
+	background-color:purple;
+}
+#_65per span{
+	color:white;
+}
+
+#_78per{
+	width:65%;
+	height:inherit;
+	background-color:blue;
+}
+#_78per span{
+	color:white;
+}
+
+#_63per{
+	width:65%;
+	height:inherit;
+	background-color:brown;
+}
+#_63per span{
+	color:white;
+}
+#skill-name{
+	align-items: center;
+	margin-left:10px;
+	padding:5px;
+
+}
+#skill-name span{
+	margin-top:10px;
+	align-content: center;
+}
+
+
+
+#experience-outerdiv{
+ position:relative;
+ width:70%;
+ border:1px solid black;
+ padding:30px;
+ background-color:#ebf1f5;
+ display:flex;
+ flex-direction: column;
+ 
+
+
+}
+.experienceBox{
+	position:relative;
+	width:40%;
+	min-height:150px;
+	left:5%;
+	border:1px solid black;
+	background-color:white;
+	margin:5px;
+}
+
+.experienceBox:nth-child(2n){
+ left:55%;
+}
+
+.timelinedivider{
+	position:absolute;
+	width:0%;
+	height:80%;
+	border:2px dashed red;
+	left:50%;
+	top:10%;
+}
+
+.timelineTraveller{
+	position:sticky;
+	top:5%;
+	/*transform:scaleY(2.5); */
+	transform:rotate(128deg);
+
+}
